@@ -2,7 +2,7 @@
 body /*bagian backround gambar*/
 { 	
 	
-	background-image: url(gambarbag/6.jpg); /*membuat background dapat menampilkan gambar*/
+	background-image: url(6.jpg); /*membuat background dapat menampilkan gambar*/
 	background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
 	background-attachment: fixed; /*agar gambar nya tetap seimbang tidak berubah */
   
