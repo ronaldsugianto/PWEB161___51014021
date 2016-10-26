@@ -1,0 +1,33 @@
+body
+{
+	background-image: url(6.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#areaku /*bagian judul daftar lagu*/
+{ 
+ 	width:1000px;  /* untuk panjang kotak */ 
+	padding: 25px;  /* untuk besar kotak */
+	border-radius: 100px; /* untuk membuat kotak menjadi oval */
+	background: #363636;    /* warna untuk dalaman kotak */
+	
+	border-top: 10px solid red; /*garil pinggir dari kotak atau gambar*/
+    border-bottom: 10px solid yellow; /*garil pinggir dari kotak atau gambar*/
+    border-left: 10px solid green; /*garil pinggir dari kotak atau gambar*/ 
+    border-right: 10px solid blue; /*garil pinggir dari kotak atau gambar*/
+
+    -webkit-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+
+	display: block; /*di gunakan untuk agar bagian kotak atau gambar dapat berada di tengah*/
+	margin: 0px auto; /*di gunakan untuk agar bagian kotak atau gambar dapat berada di tengah*/
+	text-align: center; /*di gunakan untuk agar bagian kotak atau gambar dapat berada di tengah*/
+
+	color: #fffafa; /*warna tulisan*/
+	font-family: "Jokerman",verdana; /*jenis tulisan*/
+	font-weight: bold; /*tulisan tebal*/
+	font-size: 70px;   /*besar tulisan*/
+	text-shadow:  2px -10px 6px #ee2c2c, -2px -15px 11px #cd2626, 2px -18px 18px #ff3030; /*tulisan memiliki bayangan */
+}
