@@ -1,9 +1,11 @@
 /*==========================================================*/
-body
-{
-	background-image: url(6.jpg);
-	background-size: 100% 100%;
-	background-attachment: fixed;
+body /*bagian backround gambar*/
+{ 	
+	
+	background-image: url(gambarbag/6.jpg); /*membuat background dapat menampilkan gambar*/
+	background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
+	background-attachment: fixed; /*agar gambar nya tetap seimbang tidak berubah */
+  
 }
 /*==========================================================*/
 #areaku /*bagian judul daftar lagu*/
@@ -71,7 +73,7 @@ h2 /*bagian kotak pada menu daftar lagu*/
 	font-family: "Curlz MT",arial; 
 	text-decoration: none; 
 }
-/*==========================================================*/
+
 .a:hover, .a:active /*digunakan agar saat pointer berada di button lagu akan berubah warna */
 { 
 	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
@@ -124,9 +126,9 @@ h2 /*bagian kotak pada menu daftar lagu*/
  	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
     -moz-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
     box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
-}
+ }
 /*==========================================================*/
- p /*bagian lirik lagu */
+p /*bagian lirik lagu */
 {	width:700px;  /* untuk panjang kotak */ 
 	padding: 25px;  /* untuk besar kotak */
 	background: #363636;    
@@ -148,6 +150,7 @@ h2 /*bagian kotak pada menu daftar lagu*/
     -webkit-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
     -moz-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
     box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+}
 /*==========================================================*/
 a /*bagian BACK untuk kembali ke menu lagu*/
 {
@@ -157,6 +160,7 @@ a /*bagian BACK untuk kembali ke menu lagu*/
 	font-family: "Jokerman",verdana;	
 }
 /*==========================================================*/
+
 .d:link, .d:visited /* bagian code BACK */
 {
 	background-color: #ffffe0;
@@ -165,7 +169,7 @@ a /*bagian BACK untuk kembali ke menu lagu*/
     text-decoration: none;
     display: inline-block;
 }
-/*==========================================================*/
+
 .d:hover, .d:active /*digunakan agar saat pointer berada di button lagu akan berubah warna dan juga memiliki shadow*/
 { 
 	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
