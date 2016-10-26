@@ -81,3 +81,69 @@ h2 /*bagian kotak pada menu daftar lagu*/
 	background-color:  #c0ff3e; /*merubah warna kotak*/
 	text-shadow:5px 5px 5px gray; /*shadow pada tulisan*/
 }
+
+.judullagu /*bagian judul lagu */
+{	
+	width:850px;  /* untuk panjang kotak */ 
+	padding: 10px;  /* untuk besar kotak */
+	border-radius: 100px; /* untuk membuat kotak menjadi oval */
+	background: #363636;    
+	border: 3px solid gray;
+	
+	display: block; 
+	margin: 0px auto;
+	text-align: center;
+
+	color: #fffafa;
+	font-weight: bold;
+	font-size: 80px;
+	font-family: "Vivaldi",arial; 
+	text-shadow:5px 5px 5px khaki; /*shadow pada tulisan*/
+
+ 	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+}
+
+.img /*gambar lagu*/
+{	
+	width: 400px;
+	height: 400px;
+	border-radius: 200px; 
+	
+	border-top: 10px solid red;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+    border-right: 10px solid blue;
+
+	display: block;
+    margin: 0px auto;
+    text-align: center; 
+
+ 	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 6px rgba(250,231,108,0.58); /*membuat bayangan pada kotak atau gambar*/
+ }
+
+ p /*bagian lirik lagu */
+{	width:700px;  /* untuk panjang kotak */ 
+	padding: 25px;  /* untuk besar kotak */
+	background: #363636;    
+	border: 3px solid black; 
+
+	border-top-left-radius: 100px;
+ 	border-top-right-radius: 0px;
+ 	border-bottom-right-radius: 100px;
+ 	border-bottom-left-radius: 0px;
+
+ 	display: block; 
+	margin: 0px auto;
+	text-align: center;
+
+	color: #fffafa;
+	font-size: 50px;
+	font-family: "Tempus Sans ITC",verdana; 
+
+    -webkit-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
