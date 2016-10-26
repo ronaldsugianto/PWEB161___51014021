@@ -147,3 +147,29 @@ h2 /*bagian kotak pada menu daftar lagu*/
     -webkit-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
     -moz-box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
     box-shadow: 2px 1px 50px 20px rgba(0,0,0,0.59); /*membuat bayangan pada kotak atau gambar*/
+
+a /*bagian BACK untuk kembali ke menu lagu*/
+{
+	color: #000000;
+	font-size: 40px;
+	border-radius: 200px;
+	font-family: "Jokerman",verdana;	
+}
+    
+.d:link, .d:visited /* bagian code BACK */
+{
+	background-color: #ffffe0;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.d:hover, .d:active /*digunakan agar saat pointer berada di button lagu akan berubah warna dan juga memiliki shadow*/
+{ 
+	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+	background-color:  #ffd700;  
+	text-shadow:5px 5px 5px gray; /*shadow pada tulisan*/
+}
