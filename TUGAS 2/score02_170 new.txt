@@ -1,0 +1,15 @@
+20/10/2016
++10 tugas siap 
++10 untuk 10 lagu tambahan 
+
+27/10/2016
++10 untuk tugas di kerjakan
+-15 untuk setiap penggunaan nama warna (red, yellow)
++35 untukk selector yang lebih dari 7 baris 
++120 untuk pemanggilan 60 class di panggil berulang 
+
+JUMLAH SCOR
+20 + 150 = 170
+
+
+ 
