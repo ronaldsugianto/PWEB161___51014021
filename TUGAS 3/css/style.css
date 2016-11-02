@@ -1,82 +1,78 @@
-
-/*==========================================================*/
-/*TULISAN DUGEM hahahaahahahh*/
-@keyframes blur{ from{ text-shadow:0px 0px 10px #eee9e9,
- 0px 0px 10px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9,
-  0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 50px #eee9e9, 0px 0px 50px #eee9e9,
-     0px 0px 50px #fff, 0px 0px 150px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff,
-    0px 10px 100px #fff, 0px -10px 100px #fff, 0px -10px 100px #fff; } }
-/*==========================================================*/
-
-/*==========================================================================================================<-----------
------------<Menambah backround>*/
+/*========================-----------<Menambah backround>*/
 body
 {
-	background: url(topi2.jpg) no-repeat fixed top center; 
+	background: url(4990362.jpg) no-repeat fixed top center; 
 		background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
 	background-attachment: fixed; /*agar gambar nya tetap seimbang tidak berubah */
 }
 
-
-
-#header /*judul awal web*/
-{
-	background-image: url(karakter1.png);
-	height: 400px;
-	background-size: cover;
-
-	font-family: "Jokerman",verdana; /*jenis tulisan*/
-
-
-	/*coding judul tulisan blur bergerak*/
-	text-align:center; color: #363636; font-size: 30px;  animation:blur .75s ease-out infinite; 
-	text-shadow:0px 0px 5px #cdc9c9, 0px 0px 7px #cdc9c9; 	
-	/*coding judul tulisan blur bergerak*/
-
-}
-
-
+/*==========================================================box pada baground */
 .container{
 	max-width: 1100px;
 	border:3px;
 	margin: 40px auto;
-	border-radius: 40px;
+
 
 	overflow: hidden;
 	padding: 10px;
-	background-color: #eee9e9;
+	background-color: #fff;
 
 	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+}
+
+/*==========================================================TULISAN  shadow bergerak*/
+@keyframes blur{ from{ text-shadow:0px 0px 10px #ffffe0,
+ 0px 0px 10px #ffffe0, 0px 0px 25px #ffffe0, 0px 0px 25px #ffffe0, 0px 0px 25px #ffffe0, 0px 0px 25px #ffffe0,
+  0px 0px 25px #ffffe0, 0px 0px 25px #ffffe0, 0px 0px 50px #ffffe0, 0px 0px 50px #ffffe0,
+   0px 0px 50px #fff, 0px 0px 150px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff,
+    0px 10px 100px #fff, 0px -10px 100px #fff, 0px -10px 100px #fff;} }
+
+/*========================================================== tulisan judul*/
+h1
+{
+	font-family: "Jokerman",verdana; /*jenis tulisan*/
+
+
+	/*coding judul tulisan blur bergerak*/
+	text-align:center;
+	 color: #363636; 
+	 font-size: 60px;
+	   animation:blur 1s ease-out infinite; 
+	text-shadow:0px 0px 5px #cdc9c9, 0px 0px 7px #cdc9c9; 	
+	/*coding judul tulisan blur bergerak*/
+}
+
+/*==========================================================judul awal web*/
+#header 
+{
+	background-image: url(ddd.jpg);
+	height: 600px;
+	background-size: cover;
 }
 
 /*==========================================================================================================<------------------
 ----<*Layout kiri*/
 .daftarlagu
 {
-	width: 500px;
-	height: 650px;
+	width: 400px;
+	height: 700px;
 	
-	border-radius: 25px;
 	padding: 10px;
 	margin: 10px;
 	margin-top: 30px;
 	float: left;
 
-	background-color: #ffff00;
+	background-image: url(hdr-green-leaves-background.jpg);
 
 	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 
 	overflow-y: scroll; /*buat kotak bisa di scroll */
-
-
-
-
 }
-
+/*==========================================================efeck daftar lagu*/
 .a:link, .a:visited /*bagian menu daftar lagu*/
 {	
 	width:300px;  /* untuk panjang kotak */ 
@@ -105,7 +101,7 @@ body
 .a:hover, .a:active /*digunakan agar saat pointer berada di button lagu akan berubah warna */
 { 
 	border: 3px solid #cd853f; /*garis pinggir dari kotak berwarna */
-	background-color:  #cd853f; /*merubah warna dalam kotak*/
+	background-image: url(topi2.jpg); /*merubah warna dalam kotak*/
 
     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
@@ -114,32 +110,32 @@ body
     transform:rotate(370deg);
     -webkit-transform:rotate(370deg);
     -moz-transform:rotate(370deg);
-    color: #ffffe0 ;
  
+
+    color: #1c1c1c ;
+ 	font-weight: bold; 
+
 	text-shadow:5px 5px 5px #363636; /*shadow pada tulisan*/
 }
 
-
-/*==========================================================================================================<----------------------<*Layout tengah*/
+/*==============================================================================bagian lirik lagu*/
 .isi
 {
 	overflow-y: scroll;
-	width: 500px;
-height: 650px;
+	width: 600px;
+	height: 700px;
 	background: #ff9999;
 	padding: 10px;
 	margin: 10px;
 	margin-top: 30px;
 	float: right;
-	border-radius: 25px;
+	
 	text-align: center;
-	background-color: #ffff00;
+	background-image: url(hdr-green-leaves-background.jpg);
 
 	   -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
-	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
- 	    
-   
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);   
 }
 
 .isi img
@@ -148,24 +144,18 @@ height: 650px;
 	border-radius: 100%;
 	height: 200px;
 
-}
-
-
-
-img /*gambar lagu*/
-{	
-     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+
 }
 
-
+/*==========================================================*/
 .judullagu /*bagian judul lagu */
 {	
-	width:180px;  /* untuk panjang kotak */ 
-	padding: 10px;  /* untuk besar kotak */
+
 	border-radius: 100px; /* untuk membuat kotak menjadi oval */
-	background: #363636;    
+	background-color: #fffafa;  
 	border: 3px solid #cd853f;
 
     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
@@ -176,17 +166,18 @@ img /*gambar lagu*/
     margin: 0px auto;
     text-align: center; 
 
-	color: #fffafa;
+	color: #363636;	
 	font-weight: bold;
 	font-size: 35px;
 	font-family: "Vivaldi",arial; 
 	text-shadow:5px 5px 5px #cd853f; /*shadow pada tulisan*/
 }
 
+/*==========================================================*/
 p /*bagian lirik lagu */
 {	
 	padding: 30px;  /* untuk besar kotak */
-	background: #363636;    
+	background-image: url(t.jpg);    
 	border: 3px solid #cd853f; 
 
 	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
@@ -202,8 +193,10 @@ p /*bagian lirik lagu */
     margin: 0px auto;
     text-align: center; 
 
-	color: #fffafa;
-	font-size: 20px;
+
+	font-weight: bold;
+	color: #363636;
+	font-size: 26px;
 	font-family: "Tempus Sans ITC",verdana; 
 }
 
@@ -219,7 +212,7 @@ a /*bagian BACK untuk kembali ke menu lagu*/
 /*==========================================================*/
 .d:link, .d:visited /* bagian code BACK */
 {
-	background-color: #ffffe0;
+	background-color: #00cd00;
     padding: 4px 15px;
     text-align: center;
     text-decoration: none;
@@ -238,13 +231,14 @@ a /*bagian BACK untuk kembali ke menu lagu*/
     -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
     box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
 	background-color:  #ffd700;  
-	text-shadow:5px 5px 5px gray; /*shadow pada tulisan*/
+	text-shadow:5px 5px 5px #00ff00; /*shadow pada tulisan*/
 
-	   transform:rotate(30deg);
-  -webkit-transform:rotate(30deg);
-  -moz-transform:rotate(30deg);
+	transform:rotate(30deg);
+ 	-webkit-transform:rotate(30deg);
+ 	-moz-transform:rotate(30deg);
  
 }
+
 /*==========================================================*/
 /*<*Untuk ukuran 1080px kebawah */
 @media screen and (max-width: 1080px)
@@ -255,7 +249,7 @@ a /*bagian BACK untuk kembali ke menu lagu*/
 	}
 	.daftarlagu  {
 		width: 25%;
-			background-color: #cdcd00;
+			background-image: url(bg-pattern.jpg);
 
 	}
 	.isi {
@@ -269,16 +263,11 @@ a /*bagian BACK untuk kembali ke menu lagu*/
 
 
 /*<*Untuk ukuran layar 700px kebawah */
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 700px)
 {
 	
-	#header, 
-	.footer{
-		text-align: center;
-	}
 	.daftarlagu , .isi {
 		width: auto;
 		float: none;
-	}
-		
+	}		
 }
