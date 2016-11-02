@@ -1,0 +1,284 @@
+
+/*==========================================================*/
+/*TULISAN DUGEM hahahaahahahh*/
+@keyframes blur{ from{ text-shadow:0px 0px 10px #eee9e9,
+ 0px 0px 10px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9,
+  0px 0px 25px #eee9e9, 0px 0px 25px #eee9e9, 0px 0px 50px #eee9e9, 0px 0px 50px #eee9e9,
+     0px 0px 50px #fff, 0px 0px 150px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff, 0px 10px 100px #fff,
+    0px 10px 100px #fff, 0px -10px 100px #fff, 0px -10px 100px #fff; } }
+/*==========================================================*/
+
+/*==========================================================================================================<-----------
+-----------<Menambah backround>*/
+body
+{
+	background: url(topi2.jpg) no-repeat fixed top center; 
+		background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
+	background-attachment: fixed; /*agar gambar nya tetap seimbang tidak berubah */
+}
+
+
+
+#header /*judul awal web*/
+{
+	background-image: url(karakter1.png);
+	height: 400px;
+	background-size: cover;
+
+	font-family: "Jokerman",verdana; /*jenis tulisan*/
+
+
+	/*coding judul tulisan blur bergerak*/
+	text-align:center; color: #363636; font-size: 30px;  animation:blur .75s ease-out infinite; 
+	text-shadow:0px 0px 5px #cdc9c9, 0px 0px 7px #cdc9c9; 	
+	/*coding judul tulisan blur bergerak*/
+
+}
+
+
+.container{
+	max-width: 1100px;
+	border:3px;
+	margin: 40px auto;
+	border-radius: 40px;
+
+	overflow: hidden;
+	padding: 10px;
+	background-color: #eee9e9;
+
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+}
+
+/*==========================================================================================================<------------------
+----<*Layout kiri*/
+.daftarlagu
+{
+	width: 500px;
+	height: 650px;
+	
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 30px;
+	float: left;
+
+	background-color: #ffff00;
+
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+
+	overflow-y: scroll; /*buat kotak bisa di scroll */
+
+
+
+
+}
+
+.a:link, .a:visited /*bagian menu daftar lagu*/
+{	
+	width:300px;  /* untuk panjang kotak */ 
+	padding: 10px;  /* untuk besar kotak */
+	border-radius: 40px; /* untuk membuat kotak menjadi oval */
+	
+	background: #fffafa;    
+	border: 3px solid #cdaa7d; /*membuat bagian pinggir kotak bergaris/berbingkai */
+
+	display: block; 
+	transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s
+
+	color: #363636;
+	font-weight: bold; 
+	font-size: px; 
+	font-family: "Curlz MT",arial; 
+	text-decoration: none; 
+    margin: 0px auto;
+    text-align: center; 
+}
+
+.a:hover, .a:active /*digunakan agar saat pointer berada di button lagu akan berubah warna */
+{ 
+	border: 3px solid #cd853f; /*garis pinggir dari kotak berwarna */
+	background-color:  #cd853f; /*merubah warna dalam kotak*/
+
+    -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	
+    transform:rotate(370deg);
+    -webkit-transform:rotate(370deg);
+    -moz-transform:rotate(370deg);
+    color: #ffffe0 ;
+ 
+	text-shadow:5px 5px 5px #363636; /*shadow pada tulisan*/
+}
+
+
+/*==========================================================================================================<----------------------<*Layout tengah*/
+.isi
+{
+	overflow-y: scroll;
+	width: 500px;
+height: 650px;
+	background: #ff9999;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 30px;
+	float: right;
+	border-radius: 25px;
+	text-align: center;
+	background-color: #ffff00;
+
+	   -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+ 	    
+   
+}
+
+.isi img
+{
+	max-width: 200px;
+	border-radius: 100%;
+	height: 200px;
+
+}
+
+
+
+img /*gambar lagu*/
+{	
+     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+}
+
+
+.judullagu /*bagian judul lagu */
+{	
+	width:180px;  /* untuk panjang kotak */ 
+	padding: 10px;  /* untuk besar kotak */
+	border-radius: 100px; /* untuk membuat kotak menjadi oval */
+	background: #363636;    
+	border: 3px solid #cd853f;
+
+    -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	
+    display: block;
+    margin: 0px auto;
+    text-align: center; 
+
+	color: #fffafa;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: "Vivaldi",arial; 
+	text-shadow:5px 5px 5px #cd853f; /*shadow pada tulisan*/
+}
+
+p /*bagian lirik lagu */
+{	
+	padding: 30px;  /* untuk besar kotak */
+	background: #363636;    
+	border: 3px solid #cd853f; 
+
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+
+	border-top-left-radius: 100px;
+ 	border-top-right-radius: 0px;
+ 	border-bottom-right-radius: 100px;
+ 	border-bottom-left-radius: 0px;
+
+	display: block;
+    margin: 0px auto;
+    text-align: center; 
+
+	color: #fffafa;
+	font-size: 20px;
+	font-family: "Tempus Sans ITC",verdana; 
+}
+
+
+/*==========================================================*/
+a /*bagian BACK untuk kembali ke menu lagu*/
+{
+	color: #000000;
+	font-size: 19px;
+	border-radius: 200px;
+	font-family: "Jokerman",verdana;	
+}
+/*==========================================================*/
+.d:link, .d:visited /* bagian code BACK */
+{
+	background-color: #ffffe0;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+      transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s
+}
+
+.d:hover, .d:active /*digunakan agar saat pointer berada di button lagu akan berubah warna dan juga memiliki shadow*/
+{ 
+	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+    box-shadow: 2px 1px 50px 6px rgba(250,250,250,1); /*membuat bayangan pada kotak atau gambar*/
+	background-color:  #ffd700;  
+	text-shadow:5px 5px 5px gray; /*shadow pada tulisan*/
+
+	   transform:rotate(30deg);
+  -webkit-transform:rotate(30deg);
+  -moz-transform:rotate(30deg);
+ 
+}
+/*==========================================================*/
+/*<*Untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px)
+{
+	
+	.container  {
+		width: 100%;
+	}
+	.daftarlagu  {
+		width: 25%;
+			background-color: #cdcd00;
+
+	}
+	.isi {
+		width: 68%;
+		float: right;
+	
+
+	}
+	
+}
+
+
+/*<*Untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 1000px)
+{
+	
+	#header, 
+	.footer{
+		text-align: center;
+	}
+	.daftarlagu , .isi {
+		width: auto;
+		float: none;
+	}
+		
+}
