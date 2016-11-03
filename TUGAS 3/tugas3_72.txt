@@ -1,0 +1,8 @@
+tugas 3
+
++10 untuk tugas selesai (sudah sync ke github per tanggal 02/11/16 23:59pm)
++55 untuk setiap selector yang lebih dari 11 propertis
++4 untuk setiap .class ke-5 sampai .class ke-6
++3 untuk tampilan menu lagu yang unik (bukan link biasa)  
+
+jumlah = 72 

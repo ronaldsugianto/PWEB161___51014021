@@ -101,15 +101,15 @@ h1
 .a:hover, .a:active /*digunakan agar saat pointer berada di button lagu akan berubah warna */
 { 
 	border: 3px solid #cd853f; /*garis pinggir dari kotak berwarna */
-	background-image: url(topi2.jpg); /*merubah warna dalam kotak*/
+	
 
     -webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	
-    transform:rotate(370deg);
-    -webkit-transform:rotate(370deg);
-    -moz-transform:rotate(370deg);
+    transform:rotate(10deg);
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
  
 
     color: #1c1c1c ;
