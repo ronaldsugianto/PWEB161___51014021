@@ -1,0 +1,296 @@
+/*=============================================================================*/
+
+body
+{
+ background-image: url(bg.jpg);
+    background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
+  background-attachment: fixed; 
+}
+
+/* buat kolom awal============================================================== */
+.container1 
+{
+  max-width: 1800px;
+  border:3px;
+  margin: 40px auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1080px)
+{
+  .container1  
+  { width: 100%; } 
+}
+
+/* menu pilihan lagu dan pweb161 ================================================== */
+.navbar-custom1 
+{
+  background: #ffc0cb;
+  font-family: "Jokerman", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  text-shadow:0px 0px 5px #d03090, 0px 0px 7px #d03090;
+  -webkit-box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+  -moz-box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+  box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+}
+.navbar-custom1 a:focus,
+.navbar-custom1 .navbar-brand 
+{
+  color: #828282;
+  outline: none;
+} 
+
+.navbar-custom1 .navbar-brand:hover,
+.navbar-custom1 .navbar-brand:focus,
+.navbar-custom1 .navbar-brand:active,
+.navbar-custom1 .navbar-brand.active 
+{
+  color: #323232;
+  transform:rotate(3deg);
+  -webkit-transform:rotate(3deg);
+  -moz-transform:rotate(3deg);
+  background-color: #fffafa;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+}
+.navbar-custom1 .navbar-nav li a {
+  letter-spacing: 7px;
+  font-size: 27px;
+  color: #828282;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.navbar-custom1 .navbar-nav li.active a,
+.navbar-custom1 .navbar-nav li.active a:hover,
+.navbar-custom1 .navbar-nav li.active a:focus,
+.navbar-custom1 .navbar-nav li.active a:active {
+  outline: none;
+  color: #323232;
+  background: #fffafa;
+  border-radius: 100px;
+  transform:rotate(3deg);
+  -webkit-transform:rotate(3deg);
+  -moz-transform:rotate(3deg);
+  -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);}
+
+.navbar-custom1 .navbar-toggle {
+  color: #323232;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) 
+{
+    .navbar-custom1 
+    {
+      padding: 25px 0;
+      -webkit-transition: padding 0.3s;
+      -moz-transition: padding 0.3s;
+      transition: padding 0.3s;
+    }
+    .navbar-custom1 .navbar-brand 
+    {
+      font-size: 2em;
+      -webkit-transition: all 0.9s;
+      -moz-transition: all 0.9s;
+      transition: all 0.9s;
+    }
+    .navbar-custom1.affix 
+    {
+      padding: 10px 0;
+    }
+    .navbar-custom1.affix .navbar-brand
+    {
+      font-size: 1.5em;
+    }
+}
+
+/*=============================================================================*/
+header { /*baground bagian foto bayi*/
+  
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+}
+/*=============================================================================*/
+.imgbayi
+{
+  margin-top: -60px;
+    display: block;
+  max-width: 100%;
+  height: auto;
+-webkit-box-shadow: 2px 2px 18px 15px rgba(255,192,203,1);
+-moz-box-shadow: 2px 2px 18px 15px rgba(255,192,203,1);
+box-shadow: 2px 2px 18px 15px rgba(255,192,203,1);
+}
+
+/*=============================================================================*/
+hr.star-love {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 25px auto 30px;
+}
+
+hr.star-love:after {
+  content: "\f004";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+  text-shadow:0px 0px 5px #d03090, 0px 0px 7px #d03090;
+}
+
+hr.star-love {
+  border-color: #ff3030;
+}
+
+hr.star-love:after {
+  background-color: white;
+  color: #ff3030;
+}
+
+hr.star-star {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto 30px;
+}
+
+hr.star-star:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+  text-shadow:0px 0px 5px #d03090, 0px 0px 7px #d03090;
+}
+
+hr.star-star {
+  border-color: #363636;
+box-shadow:0px 0px 5px #d03090, 0px 0px 7px #d03090;
+}
+hr.star-star:after {
+  background-color: #ffc0cb;
+  color: #363636;
+}
+
+/*============================================================================*/
+.textmetalic 
+{ text-align: center;
+ font-size: 53px; 
+ color: transparent;  
+  font-family: "Jokerman", Helvetica, Arial, sans-serif;
+}
+.textmetalic span 
+{ text-shadow: 0 0 2px rgba(0, 0, 0,1.0),
+0 15px 25px rgba(0, 0, 0, 0.3), 
+0 -2px 3px rgba(0, 0, 0, 0.1),
+0 -5px 10px rgba(255, 255, 255, 0.5),
+0 5px 10px rgba(0, 0, 0, 0.3), 
+0 3px 4px rgba(255, 255, 255, 0.2),
+0 0 20px rgba(255, 255, 255, 0.45);
+animation: loading 1.2s ease-in-out infinite alternate; }
+
+@keyframes loading 
+{ to { 
+text-shadow: 0 0 2px rgba(255, 0, 110,1.0),
+0 0 3px rgba(0, 0, 0, 0.02),
+0 0 0 rgba(0, 0, 0, 0),
+0 0 0 rgba(255, 255, 255, 0),
+0 0 0 rgba(0, 0, 0, 0),
+0 0 0 rgba(255, 255, 255, 0),
+0 0 0 rgba(255, 255, 255, 0);
+} }
+.textmetalic span:nth-child(2) { animation-delay:0.2s; }
+.textmetalic span:nth-child(3) { animation-delay:0.4s; }
+.textmetalic span:nth-child(4) { animation-delay:0.6s; }
+.textmetalic span:nth-child(5) { animation-delay:0.8s; }
+.textmetalic span:nth-child(6) { animation-delay:1s; }
+.textmetalic span:nth-child(7) { animation-delay:1.2s; }
+.textmetalic span:nth-child(8) { animation-delay:1.4s; }
+.textmetalic span:nth-child(9) { animation-delay:1.6s; }
+.textmetalic span:nth-child(10) { animation-delay:1.8s; }
+.textmetalic span:nth-child(11) { animation-delay:2s; }
+.textmetalic span:nth-child(12) { animation-delay:2.2s; }
+.textmetalic span:nth-child(13) { animation-delay:2.4s; }
+.textmetalic span:nth-child(14) { animation-delay:2.5s; }
+
+/*==============================================================================*/
+.bg{
+  background-color: #ffc0cb;
+  -webkit-box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+-moz-box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+box-shadow: 2px 2px 108px 39px rgba(255,192,203,1);
+}
+
+h2{
+    font-family: "Curlz MT", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-shadow:0px 0px 5px #d03090, 0px 0px 7px #d03090;
+}
+
+.img
+{
+  width: 500px;
+  height: 400px;
+  -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  display: block;
+  margin: 0px auto;  
+}
+
+/*=============================================================================*/
+.isi
+{
+  background-color: #ffc0cb;
+}
+
+p /*bagian lirik lagu */
+{ 
+  padding: 30px;  /* untuk besar kotak */
+  background-image: url(t.jpg);    
+
+  -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+  box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
+
+  border-top-left-radius: 100px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+
+  display: block;
+  margin: 0px auto;
+  text-align: center; 
+
+  font-weight: bold;
+  font-size: 26px;
+  font-family: "Tempus Sans ITC",verdana; 
+  text-shadow:0px 0px 30px #CD6090, 0px 0px 30px #CD6090;
+}
+/*=============================================================================*/
