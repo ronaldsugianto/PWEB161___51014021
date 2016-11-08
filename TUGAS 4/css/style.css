@@ -1,8 +1,7 @@
 /*=============================================================================*/
-
 body
 {
- background-image: url(bg.jpg);
+ background-image: url(bgimg/bg.jpg);
     background-size: 100% 100%; /*agar background kalau di zoom akan tetap utuh gambarnya*/
   background-attachment: fixed; 
 }
@@ -274,7 +273,7 @@ h2{
 p /*bagian lirik lagu */
 { 
   padding: 30px;  /* untuk besar kotak */
-  background-image: url(t.jpg);    
+  background-image: url(bgimg/t.jpg);    
 
   -webkit-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
   -moz-box-shadow: 2px 2px 82px 11px rgba(255,255,255,1);
