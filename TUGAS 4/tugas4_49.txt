@@ -1,0 +1,11 @@
+Theme: freelancer
+link : https://startbootstrap.com/template-overviews/freelancer/
+
+
++10 untuk tugas yang di-commit selambatnya tanggal 09/11/16 23:59:59
++8 untuk setiap comit  setelah comit pertama sebelum tanggal 09/11/16 23:59:59
++0 untuk setiap selector theme yang di-override
++27 untuk setiap 9 class yang dibuat sendiri
++4 untuk setiap gilyphicon atau font-awesome baru yang tidak ada di theme asli
+
+jumlah = 49

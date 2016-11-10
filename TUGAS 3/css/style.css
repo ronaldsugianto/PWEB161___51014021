@@ -87,7 +87,7 @@ h1
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     -ms-transition: all 1s;
-    -o-transition: all 1s
+    -o-transition: all 1s;
 
 	color: #363636;
 	font-weight: bold; 
@@ -107,9 +107,9 @@ h1
     -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
 	
-    transform:rotate(10deg);
-    -webkit-transform:rotate(10deg);
-    -moz-transform:rotate(10deg);
+    transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
  
 
     color: #1c1c1c ;
