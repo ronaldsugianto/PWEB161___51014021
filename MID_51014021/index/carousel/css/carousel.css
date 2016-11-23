@@ -2,9 +2,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+p, h1, h2 , h3 , h4 , h5 {
+  color: #363636;
+  text-align: center;
+}
+
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #FFF;
 }
 
 
